@@ -85,12 +85,12 @@ h2 {
     left: 735px;
     width: 63px;
     height: 63px;
-    transition: transform 1s ease-in-out 1s;
+    transition: transform 1s ease-in-out;
     z-index: 3;
 }
 
 .logoBig:hover {
-    transform: rotateY(180deg) scale(2);
+    transform: rotateY(180deg) scale(1.8);
 }
 
 
@@ -414,9 +414,11 @@ a {
     }
 
     .logoBig {
-        position: static;
-        display: block;
-        margin: 0 auto;
+        position: absolute;
+        top: 170px;
+        left: 315px;
+        /* display: block;
+        margin: 0 auto; */
     }
 
     .wrapperText {
