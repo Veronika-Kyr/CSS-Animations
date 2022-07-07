@@ -78,8 +78,6 @@ h2 {
 }
 
 .logoBig {
-    /* display: block;
-    margin: 0 auto; */
     position: absolute;
     top: 200px;
     left: 735px;
@@ -92,8 +90,6 @@ h2 {
 .logoBig:hover {
     transform: rotateY(180deg) scale(1.8);
 }
-
-
 
 .heroSubhead {
     font-size: 24px;
@@ -167,8 +163,6 @@ h2 {
     transform: rotateZ(15deg);
 }
 
-
-
 .sectionWithImage02 {
     position: absolute;
     top: 1500px;
@@ -217,7 +211,6 @@ h2 {
     transition: border-left 1s ease-in-out;
 }
 
-
 div.btnPlay:hover {
     background: white;
     transform: scale(0.8);
@@ -226,7 +219,6 @@ div.btnPlay:hover {
 div.btnPlay:hover>.triangle {
     border-left: 55px solid var(--btn-color);
 }
-
 
 .learnMore {
     position: absolute;
@@ -263,7 +255,6 @@ div.btnPlay:hover>.triangle {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
 }
-
 
 .logoWord {
     padding-left: 16px;
@@ -304,8 +295,6 @@ a {
     }
 }
 
-
-
 @keyframes SlideInOut {
 
     from {
@@ -319,15 +308,12 @@ a {
     }
 }
 
-
 .animaStar {
     position: absolute;
     top: 62px;
     left: 907px;
-    /* z-index: 2; */
     opacity: 0;
     animation: Apperance 3s ease-in 0.5s infinite alternate-reverse;
-
 }
 
 .animaDots {
@@ -335,11 +321,8 @@ a {
     top: 26px;
     left: 605px;
     width: 47%;
-    /* z-index: 1; */
     animation: SlideInOut 3s ease-in 0.5s infinite alternate-reverse;
 }
-
-
 
 
 @media(max-width: 768px) {
@@ -364,35 +347,28 @@ a {
     @keyframes SlideInOut {
 
         from {
-            top: 130px;
-            left: -195px;
+            top: 27px;
+            left: -170px;
         }
 
         to {
-            top: 113px;
-            left: -219px;
+            top: 10px;
+            left: -190px;
         }
     }
 
-
     .animaStar {
         position: absolute;
-        /* display: block;
-        margin: 0 auto; */
         left: 137px;
         top: 68px;
         width: 65%;
-        /* z-index: 1; */
     }
 
     .animaDots {
         position: absolute;
-        /* display: block;
-        margin: 0 auto; */
-        top: 130px;
-        left: -195px;
-        width: 120%;
-        /* z-index: 2; */
+        top: 27px;
+        left: -170px;
+        width: 105%;
     }
 
     .navLinks {
@@ -417,8 +393,6 @@ a {
         position: absolute;
         top: 170px;
         left: 315px;
-        /* display: block;
-        margin: 0 auto; */
     }
 
     .wrapperText {
