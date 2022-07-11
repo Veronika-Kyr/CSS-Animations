@@ -15,6 +15,7 @@ body {
     background: url('../assets/header.png');
     height: 800px;
     margin: 0;
+    position: relative;
 }
 
 .wrapper {
@@ -75,12 +76,13 @@ h2 {
 
 .heroBlock {
     padding: 252px 386px 256px 386px;
+    position: relative;
 }
 
 .logoBig {
     position: absolute;
     top: 200px;
-    left: 735px;
+    left: 565px;
     width: 63px;
     height: 63px;
     transition: transform 1s ease-in-out;
@@ -298,29 +300,29 @@ a {
 @keyframes SlideInOut {
 
     from {
-        top: 26px;
-        left: 605px;
+        top: 23px;
+        left: 446px;
     }
 
     to {
-        top: 6px;
-        left: 585px;
+        top: 3px;
+        left: 426px;
     }
 }
 
 .animaStar {
     position: absolute;
-    top: 62px;
-    left: 907px;
+    top: 61px;
+    left: 748px;
     opacity: 0;
     animation: Apperance 3s ease-in 0.5s infinite alternate-reverse;
 }
 
 .animaDots {
     position: absolute;
-    top: 26px;
-    left: 605px;
-    width: 47%;
+    top: 23px;
+    left: 446px;
+    width: 60%;
     animation: SlideInOut 3s ease-in 0.5s infinite alternate-reverse;
 }
 
@@ -347,28 +349,28 @@ a {
     @keyframes SlideInOut {
 
         from {
-            top: 27px;
-            left: -170px;
+            top: 26px;
+            left: -265px;
         }
 
         to {
             top: 10px;
-            left: -190px;
+            left: -280px;
         }
     }
 
     .animaStar {
         position: absolute;
-        left: 137px;
+        left: 37px;
         top: 68px;
-        width: 65%;
+        width: 93%;
     }
 
     .animaDots {
         position: absolute;
-        top: 27px;
-        left: -170px;
-        width: 105%;
+        top: 26px;
+        left: -265px;
+        width: 147%;
     }
 
     .navLinks {
@@ -391,8 +393,8 @@ a {
 
     .logoBig {
         position: absolute;
-        top: 170px;
-        left: 315px;
+        top: 140px;
+        left: 215px;
     }
 
     .wrapperText {
